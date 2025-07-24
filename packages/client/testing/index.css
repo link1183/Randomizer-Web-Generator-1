@@ -1,7 +1,12 @@
+body {
+  font-family:
+    Segoe UI,
+    Arial;
+}
+
 .select {
   position: relative;
   width: 240px;
-  font-family: system-ui, sans-serif;
   font-size: 14px;
   user-select: none;
 }
@@ -16,7 +21,7 @@
 }
 
 .selected::after {
-  content: "";
+  content: '';
   position: absolute;
   right: 10px;
   top: 50%;

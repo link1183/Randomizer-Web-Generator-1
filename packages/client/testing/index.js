@@ -91,15 +91,6 @@
           }
         },
       },
-      selectedIndex: {
-        get() {
-          const val = selected.dataset.value;
-          const opts = Array.from(select.querySelectorAll('.option'));
-          return opts.findIndex(
-            (o) => o.dataset.value === val && !o.classList.contains('disabled')
-          );
-        },
-      },
     });
   }
 
