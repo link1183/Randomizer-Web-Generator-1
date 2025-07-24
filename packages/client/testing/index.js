@@ -71,6 +71,8 @@
       }
     });
 
+    // Any properties defined here will be accessible using "el.yourProperty" in JS.
+    // These are NOT automatically linked to HTML attributes, unless you manually sync them.
     Object.defineProperties(select, {
       value: {
         get() {
